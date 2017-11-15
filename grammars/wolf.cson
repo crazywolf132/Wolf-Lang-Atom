@@ -1,79 +1,79 @@
-'scopeName': 'source.gravity'
-'name': 'Gravity'
+'scopeName': 'source.wolf'
+'name': 'Wolf'
 'fileTypes': [
-  'gravity'
+  'wolf'
 ]
 'patterns': [
   {
     'begin': '/\\*'
     'end': '\\*/'
-    'name': 'comment.block.gravity'
+    'name': 'comment.block.wolf'
   }
   {
     'begin': '//'
     'end': '$\\n?'
-    'name': 'comment.line.gravity'
+    'name': 'comment.line.wolf'
   }
   {
     'begin': '\''
     'end': '\''
-    'name': 'string.quoted.single.gravity'
+    'name': 'string.quoted.single.wolf'
   }
   {
     'begin': '"'
     'end': '"'
-    'name': 'string.quoted.double.gravity'
+    'name': 'string.quoted.double.wolf'
   }
   {
     'match': '\\b(in|or|is|var|let|and|not|function|func|enum|null|file|lazy|super|class|const|event|_func|_args|struct|repeat|public|static|extern|import|module|default|private|internal|undefined)\\b'
-    'name': 'keyword.reserved.gravity'
+    'name': 'keyword.reserved.wolf'
   }
   {
     'match': '\\b(if|return|else|otherwise|case|break|for|while|switch|continue)\\b'
-    'name': 'keyword.control.flow-control.gravity'
+    'name': 'keyword.control.flow-control.wolf'
   }
   {
     'match': '\\b(true|false)\\b'
-    'name': 'string.boolean.gravity'
+    'name': 'string.boolean.wolf'
   }
   {
     'match': '\\#\\w+'
-    'name': 'meta.preprocessor.gravity'
+    'name': 'meta.preprocessor.wolf'
   }
   {
     'match': '\\b[A-Z_]+\\b'
-    'name': 'entity.other.attribute-name.gravity'
+    'name': 'entity.other.attribute-name.wolf'
   }
   {
     'match': '(-|\\.)?\\b[0-9]+(\\.[0-9]+)?\\b'
-    'name': 'constant.numeric.gravity'
+    'name': 'constant.numeric.wolf'
   }
   {
     'match': '(\\w|[\\+|-|\\*|/|%|=|!|\\^|~|\\||\\?|\\<|\\>|\\&])+(?=\\s*\\()'
-    'name': 'support.function.gravity'
+    'name': 'support.function.wolf'
   }
   {
     'match': '\\+|-|\\*|/|%|=|!|\\^|~|\\||\\?|\\<|\\>|\\&'
-    'name': 'keyword.operator.gravity'
+    'name': 'keyword.operator.wolf'
   }
   {
     'match': '[<>]?[\\.]{1,3}[<>]?'
-    'name': 'keyword.operator.range.gravity'
+    'name': 'keyword.operator.range.wolf'
   }
   {
     'match': '\\w+(?=\\s*:)'
-    'name': 'variable.other.gravity'
+    'name': 'variable.other.wolf'
   }
   {
     'match': '(?<=\\w\\.)\\w+(?=\\.|\\s|,|;|\\)|\\?|\\+|\\-|=)'
-    'name': 'support.constant.gravity'
+    'name': 'support.constant.wolf'
   }
   {
     'match': '\\b([A-Z])\\w+\\b'
-    'name': 'entity.name.type.class.gravity'
+    'name': 'entity.name.type.class.wolf'
   }
   {
     'match': '\\w'
-    'name': 'variable.other.gravity'
+    'name': 'variable.other.wolf'
   }
 ]
