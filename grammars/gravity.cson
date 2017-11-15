@@ -25,11 +25,11 @@
     'name': 'string.quoted.double.gravity'
   }
   {
-    'match': '\\b(in|or|is|var|and|not|func|enum|null|file|lazy|super|class|const|event|_func|_args|struct|repeat|public|static|extern|import|module|default|private|internal|undefined)\\b'
+    'match': '\\b(in|or|is|var|let|and|not|function|func|enum|null|file|lazy|super|class|const|event|_func|_args|struct|repeat|public|static|extern|import|module|default|private|internal|undefined)\\b'
     'name': 'keyword.reserved.gravity'
   }
   {
-    'match': '\\b(if|return|else|case|break|for|while|switch|continue)\\b'
+    'match': '\\b(if|return|else|otherwise|case|break|for|while|switch|continue)\\b'
     'name': 'keyword.control.flow-control.gravity'
   }
   {
