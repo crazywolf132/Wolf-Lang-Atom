@@ -1,18 +1,18 @@
 {
-  "name": "language-gravity",
-  "version": "0.1.1",
-  "description": "Adds syntax highlighting for the Gravity language to Atom.",
-  "author": "Joshua Bemenderfer",
+  "name": "language-wolf",
+  "version": "1.0.0",
+  "description": "Adds syntax highlighting for the Wolf language to Atom.",
+  "author": "Brayden Moon",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Tribex/atom-language-gravity.git"
+    "url": "https://github.com/crazywolf132/Wolf-Lang-Atom.git"
   },
-  "homepage": "https://github.com/Tribex/atom-language-gravity",
+  "homepage": "https://github.com/crazywolf132/Wolf-Lang-Atom",
   "bugs": {
-    "url": "https://github.com/Tribex/atom-language-gravity/issues"
+    "url": "https://github.com/crazywolf132/Wolf-Lang-Atom/issues"
   },
   "keywords": [
-    "gravity",
+    "wolf",
     "language",
     "syntax",
     "grammar"
