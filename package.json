@@ -1,6 +1,6 @@
 {
   "name": "language-wolf",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Adds syntax highlighting for the Wolf language to Atom.",
   "author": "Brayden Moon",
   "repository": {
